@@ -5,6 +5,7 @@ import Login from './pages/Login'
 import Register from './pages/Register'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import NoPage from './pages/NoPage'
+import './css/style2.css';
 
 export default class App extends Component {
   render() {
@@ -20,6 +21,7 @@ export default class App extends Component {
         </Route>
       </Routes>
     </BrowserRouter>
+    <footer></footer>
        </>
     )
   }
